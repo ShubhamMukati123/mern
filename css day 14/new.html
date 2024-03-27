@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .parent {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+
+    .child2 {
+        height: 100vh;
+    }
+
+    .child3 {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(207, 99, 22);
+         position: sticky;
+        bottom: 0px;
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <button>fixed nav bar</button>
+        <button>Home</button>
+        <button>Link</button>
+        <button>Disabled</button>
+
+        <div class="child">
+            <label  for=""></label>
+            <input type="" placeholder="Search" required>
+            <button>Search</button>
+        </div>
+    </div>
+    <div class="child2">
+        <h1>Sticky footer with fixed navbar</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto libero alias tenetur accusantium
+        aperiam placeat ipsa, consectetur ad praesentium.
+    </div>
+    <div class="child3">
+        place sticky footer content here.
+    </div>
+
+</body>
+
+</html>
