@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .item {
+    padding: 20px;
+}
+
+.right .item:hover {
+    background-color: chartreuse;
+}
+
+.dropdown {
+    display: none;
+
+}
+
+#dp {
+    position: relative;
+}
+
+#dp:hover .dropdown {
+    display: block;
+
+
+
+}
+
+.dropdown {
+    position: absolute;
+    top: 58px;
+    left: -8px;
+    background-color: rgb(43, 46, 46);
+}
+
+.dropdown .dropdwon_item {
+    padding: 15px;
+}
+
+.dropdown_item:hover {
+    background-color: black;
+}
+.item:nth-child(2):hover{
+    background-color: aqua;
+}
