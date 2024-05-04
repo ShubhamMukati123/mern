@@ -15,12 +15,12 @@ while(s<=e){
 }
 return -1
 }
-const arr = [10,20,30,400,600,750,1200,1900,2400,5000]
-let target = 750;
+const arr = [99,100,101,201,203,204,205,206,207,209,210,217,218]
+let target = 219;
 const result = binarysearch(arr,target);
 
 console.log(result)
 
 
-
+                 navigator.aa
 
